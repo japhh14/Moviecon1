@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "MMDB",
+    "slug": "MMDB",
+    "owner": "japh147",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/images/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.anshraiyani13.MMDB"
+    },
+    "web": {
+      "favicon": "./src/assets/images/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "7ece0831-ad78-4412-a067-c05934d112e8"
+      }
+    },
+    "newArchEnabled": true,
+    "updates": {
+      "enabled": false 
+    }
+  }
+}
